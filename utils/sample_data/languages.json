@@ -1,47 +1,32 @@
 {
   "-NsAygUecZ80kynp2T2z": {
-    "id": 1,
     "firebaseKey": "-NsAygUecZ80kynp2T2z",
     "title": "HTML",
-    "description": "HTML stands for Hyper Text Markup Language and is the standard markup language for creating Web pages.",
-    "vocabulary": "href",
-    "favorite": false,
-    "uid": "42.174.93.155"
+    "description": "HTML stands for Hyper Text Markup Language and is the standard markup language for creating Web pages",
+    "uid": ""
   },
   "-NsAygUgwx-NA2oTCxSa": {
     "firebaseKey": "-NsAygUgwx-NA2oTCxSa",
-    "id": 2,
     "title": "JavaScript",
     "description": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages ",
-    "vocabulary": "forLoop",
-    "favorite": false,
-    "uid": "18.149.168.251"
+    "uid": ""
   },
   "-NsAygUhZET4pg0a3dsM": {
     "firebaseKey": "-NsAygUhZET4pg0a3dsM",
-    "id": 3,
     "title": "Python",
     "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics",
-    "vocabulary": "Tuple",
-    "favorite": false,
-    "uid": "113.44.150.144"
+    "uid": ""
   },
   "-NsAygUjPDKTUnKQ1uFq": {
     "firebaseKey": "-NsAygUjPDKTUnKQ1uFq",
-    "id": 4,
     "title": "c#",
     "description": "C# is pronounced C-Sharp. It is an object-oriented programming language created by Microsoft that runs on the .NET Framework.",
-    "vocabulary": "Identifiers",
-    "favorite": false,
-    "uid": "130.214.57.120"
+    "uid": ""
   },
   "-NsAygUk3bkoyroJBrBB": {
     "firebaseKey": "-NsAygUk3bkoyroJBrBB",
-    "id": 5,
     "title": "CSS",
     "description": "CSS stands for Cascading Style Sheets language and is used to stylize elements written in a markup language such as HTML",
-    "vocabulary": "Selectors",
-    "favorite": true,
-    "uid": "237.190.80.77"
+    "uid": ""
   }
 }

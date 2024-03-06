@@ -1,47 +1,42 @@
 {
   "-NsAzxWVuNZgDYrtsVAC": {
-    "id": 1,
     "firebaseKey": "-NsAzxWVuNZgDYrtsVAC",
     "title": "href",
-    "description": "The href attribute specifies the URL of the page the link goes to",
-    "language": "HTML",
-    "favorite": false,
-    "uid": "13-0498771"
+    "definition": "The href attribute specifies the URL of the page the link goes to",
+    "languageID": "",
+    "timeSubmitted": "",
+    "uid": ""
   },
   "-NsAzxWVuNZgDYrtsVAD": {
-    "id": 2,
     "firebaseKey": "-NsAzxWVuNZgDYrtsVAD",
     "title": "forLoop",
-    "description": "A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop.",
-    "language": "JavaScript",
-    "favorite": false,
-    "uid": "94-8239626"
+    "definition": "A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop.",
+    "languageID": "",
+    "timeSubmitted": "",
+    "uid": ""
   },
   "-NsAzxWWANoAzuO6GZsI": {
-    "id": 3,
     "firebaseKey":  "-NsAzxWWANoAzuO6GZsI",
     "title": "Tuple",
-    "description": "Python has a built-in sequence data type to store data in an unchangeable object, called a tuple.",
-    "language": "Python",
-    "favorite": false,
-    "uid": "82-6489961"
+    "definition": "Python has a built-in sequence data type to store data in an unchangeable object, called a tuple.",
+    "languageID": "",
+    "timeSubmitted": "",
+    "uid": ""
   },
   "-NsAzxWWANoAzuO6GZsJ": {
-    "id": 4,
     "firebaseKey": "-NsAzxWWANoAzuO6GZsJ",
     "title": "Identifier",
-    "description": "In C#, an identifier is a user-defined name used to represent variables, methods, classes, interfaces, or other program entities.",
-    "language": "c#",
-    "favorite": true,
-    "uid": "74-4862572"
+    "definition": "In C#, an identifier is a user-defined name used to represent variables, methods, classes, interfaces, or other program entities.",
+    "languageID": "",
+    "timeSubmitted": "",
+    "uid": ""
   },
   "-NsAzxWXh6F2my0sqWYa": {
-    "id": 5,
     "firebaseKey": "-NsAzxWXh6F2my0sqWYa",
     "title": "Selectors",
-    "description": "CSS selectors are used to select the HTML elements you want to style.",
-    "language": "CSS",
-    "favorite": false,
-    "uid": "50-2975512"
+    "definition": "CSS selectors are used to select the HTML elements you want to style.",
+    "languageID": "",
+    "timeSubmitted": "",
+    "uid": ""
   }
 }
