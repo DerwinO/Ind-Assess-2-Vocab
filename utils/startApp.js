@@ -2,6 +2,8 @@ import navBar from '../shared/navBar';
 import logoutButton from '../components/logoutButton';
 import filterButtons from '../components/filterButtons';
 import domBuilder from '../shared/domBuilder';
+import getVocab from '../api/vocabData';
+import showVocabCards from '../api/cards/vocabCards';
 
 const startApp = (user) => {
   domBuilder(user); // BUILD THE DOM
@@ -12,8 +14,8 @@ const startApp = (user) => {
   filterButtons();
   // navigationEvents(); // ATTACH THE EVENT LISTENERS TO THE NAVBAR
 
-  // TODO: Put all books on the DOM on App load
-  // getBooks(user.uid).then((books) => showBooks(books));
+  // TODO: Put all vocab on the DOM on App load
+  getVocab(user.uid).then((vocab) => showVocabCards(vocab));
 };
 
 export default startApp;

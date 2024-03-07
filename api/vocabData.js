@@ -1,5 +1,5 @@
 import client from '../utils/client';
-// API CALLS FOR BOOKS
+// API CALLS FOR VOCABULARY
 
 const endpoint = client.databaseURL;
 
@@ -11,7 +11,7 @@ const getVocab = (uid) => new Promise((resolve, reject) => {
       'Content-Type': 'application/json',
     },
   })
-    .then((response) => response.json())
+    .then((response) => response.json(uid))
     .then((data) => {
       if (data) {
         resolve(Object.values(data));
