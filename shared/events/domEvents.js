@@ -1,8 +1,10 @@
 import showVocabCards from '../../api/cards/vocabCards';
-import { deleteVocab, getVocab } from '../../api/vocabData';
+import { deleteVocab, getVocab, getSingleVocabCard } from '../../api/vocabData';
+
+import addVocabForm from '../../pages/forms/addVocabForm';
 
 const domEvents = () => {
-  document.querySelector('#main-container').addEventListener('click', (e) => {
+  document.querySelector('#vocab').addEventListener('click', (e) => {
     // TODO: CLICK EVENT FOR DELETING VOCAB CARD
 
     // FIXME: ADD CLICK EVENT FOR DELETING VOCAB
@@ -20,11 +22,11 @@ const domEvents = () => {
 
     // Click Event for Vocab Details
 
-    // if (e.target.id.includes('view-vocab-btn')) {
-    //   console.warn('VOCAB');
-    //   const [, firebaseKey] = e.target.id.split('--');
-    //   getVocab(firebaseKey).then(showVocabCards);
-    // }
+    if (e.target.id.includes('read-vocab-btn')) {
+      console.warn('VOCAB');
+      const [, firebaseKey] = e.target.id.split('--');
+      getVocab(firebaseKey).then(showVocabCards);
+    }
 
     // // FIXME: ADD CLICK EVENT FOR SHOWING FORM FOR ADDING VOCAB
     // // if (e.target.id.includes('add-author-btn')) {
@@ -33,11 +35,11 @@ const domEvents = () => {
     // // }
     // // FIXME: ADD CLICK EVENT FOR EDITING VOCAB
 
-    // if (e.target.id.includes('update-author')) {
-    //   const [, firebaseKey] = e.target.id.split('--');
+    if (e.target.id.includes('update-vocab-btn')) {
+      const [, firebaseKey] = e.target.id.split('--');
 
-    //   getSingleAuthor(firebaseKey).then((authorObj) => addAuthorForm(authorObj));
-    // }
+      getSingleVocabCard(firebaseKey).then((vocabObj) => addVocabForm(vocabObj));
+    }
   });
 };
 
