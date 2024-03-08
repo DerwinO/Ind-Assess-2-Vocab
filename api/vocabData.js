@@ -4,14 +4,14 @@ import client from '../utils/client';
 const endpoint = client.databaseURL;
 
 // TODO: GET BOOKS
-const getVocab = (uid) => new Promise((resolve, reject) => {
-  fetch(`${endpoint}/vocabulary.json?orderBy="uid"&equalTo="${uid}"`, {
+const getVocab = (user) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary.json`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
     },
   })
-    .then((response) => response.json(uid))
+    .then((response) => response.json(user))
     .then((data) => {
       if (data) {
         resolve(Object.values(data));
@@ -22,4 +22,16 @@ const getVocab = (uid) => new Promise((resolve, reject) => {
     .catch(reject);
 });
 
-export default getVocab;
+const deleteVocab = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/vocabulary/${firebaseKey}.json`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
+
+export { deleteVocab, getVocab };
