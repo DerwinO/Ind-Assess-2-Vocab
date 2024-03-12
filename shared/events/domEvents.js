@@ -40,6 +40,10 @@ const domEvents = () => {
 
       getSingleVocabCard(firebaseKey).then((vocabObj) => addVocabForm(vocabObj));
     }
+
+    if (e.target.id.includes('submit-vocab-btn')) {
+      addVocabForm();
+    }
   });
 };
 

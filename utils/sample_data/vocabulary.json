@@ -3,40 +3,45 @@
     "firebaseKey": "-NsAzxWVuNZgDYrtsVAC",
     "title": "href",
     "definition": "The href attribute specifies the URL of the page the link goes to",
-    "languageID": "",
+    "language": "html",
+    "languageID": "-NsAygUecZ80kynp2T2z",
     "timeSubmitted": "",
-    "uid": ""
+    "uid": "y5eEQXfFHKbIfjLQ6Tbe4GO9aQ13"
   },
   "-NsAzxWVuNZgDYrtsVAD": {
     "firebaseKey": "-NsAzxWVuNZgDYrtsVAD",
     "title": "forLoop",
     "definition": "A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop.",
-    "languageID": "",
+    "language": "javascript",
+    "languageID": "-NsAygUgwx-NA2oTCxSa",
     "timeSubmitted": "",
-    "uid": ""
+    "uid": "y5eEQXfFHKbIfjLQ6Tbe4GO9aQ13"
   },
   "-NsAzxWWANoAzuO6GZsI": {
     "firebaseKey":  "-NsAzxWWANoAzuO6GZsI",
     "title": "Tuple",
     "definition": "Python has a built-in sequence data type to store data in an unchangeable object, called a tuple.",
-    "languageID": "",
+    "language": "python",
+    "languageID": "-NsAygUhZET4pg0a3dsM",
     "timeSubmitted": "",
-    "uid": ""
+    "uid": "y5eEQXfFHKbIfjLQ6Tbe4GO9aQ13"
   },
   "-NsAzxWWANoAzuO6GZsJ": {
     "firebaseKey": "-NsAzxWWANoAzuO6GZsJ",
     "title": "Identifier",
     "definition": "In C#, an identifier is a user-defined name used to represent variables, methods, classes, interfaces, or other program entities.",
-    "languageID": "",
+    "language": "c#",
+    "languageID": "-NsAygUjPDKTUnKQ1uFq",
     "timeSubmitted": "",
-    "uid": ""
+    "uid": "y5eEQXfFHKbIfjLQ6Tbe4GO9aQ13"
   },
   "-NsAzxWXh6F2my0sqWYa": {
     "firebaseKey": "-NsAzxWXh6F2my0sqWYa",
     "title": "Selectors",
     "definition": "CSS selectors are used to select the HTML elements you want to style.",
-    "languageID": "",
+    "language": "css",
+    "languageID": "-NsAygUk3bkoyroJBrBB",
     "timeSubmitted": "",
-    "uid": ""
+    "uid": "y5eEQXfFHKbIfjLQ6Tbe4GO9aQ13"
   }
 }

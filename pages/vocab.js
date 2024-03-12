@@ -1,8 +1,12 @@
-import clearDom from '../../utils/clearDom';
-import renderToDOM from '../../utils/renderToDom';
+import clearDom from '../utils/clearDom';
+import renderToDOM from '../utils/renderToDom';
 
 const showVocabCards = (array) => {
   clearDom();
+  console.warn('array', array);
+  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-vocab-btn">Add Vovab</button>';
+
+  renderToDOM('#add-button', btnString);
 
   let domString = '';
   array.forEach((item) => {
@@ -17,9 +21,10 @@ const showVocabCards = (array) => {
         <i class="fas fa-edit btn btn-info" id="update-vocab-btn--${item.firebaseKey}"></i>
         <i class="btn btn-danger fas fa-trash-alt" id="delete-vocab-btn--${item.firebaseKey}"></i>
       </div>
-    </div>`;
+    </div>
+    `;
   });
-  renderToDOM('#vocab', domString);
+  renderToDOM('#store', domString);
 };
 
-export default showVocabCards;
+export default { showVocabCards };
