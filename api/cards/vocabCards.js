@@ -3,6 +3,8 @@ import renderToDOM from '../../utils/renderToDom';
 
 const showVocabCards = (array) => {
   clearDom();
+  const btnString = '<button class="btn btn-success btn-lg mb-4" id="add-vocab-btn">Add Vocab</button>';
+  renderToDOM('#add-button', btnString);
 
   let domString = '';
   array.forEach((item) => {

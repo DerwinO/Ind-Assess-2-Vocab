@@ -4,7 +4,7 @@ import { deleteVocab, getVocab, getSingleVocabCard } from '../../api/vocabData';
 import addVocabForm from '../../pages/forms/addVocabForm';
 
 const domEvents = () => {
-  document.querySelector('#vocab').addEventListener('click', (e) => {
+  document.querySelector('#main-container').addEventListener('click', (e) => {
     // TODO: CLICK EVENT FOR DELETING VOCAB CARD
 
     // FIXME: ADD CLICK EVENT FOR DELETING VOCAB
@@ -28,11 +28,11 @@ const domEvents = () => {
       getVocab(firebaseKey).then(showVocabCards);
     }
 
-    // // FIXME: ADD CLICK EVENT FOR SHOWING FORM FOR ADDING VOCAB
-    // // if (e.target.id.includes('add-author-btn')) {
-    // //   console.warn('ADD VOCAB');
-    // //   addAuthorForm();
-    // // }
+    // FIXME: ADD CLICK EVENT FOR SHOWING FORM FOR ADDING VOCAB
+    if (e.target.id.includes('add-vocab-btn')) {
+      console.warn('ADD VOCAB');
+      addVocabForm();
+    }
     // // FIXME: ADD CLICK EVENT FOR EDITING VOCAB
 
     if (e.target.id.includes('update-vocab-btn')) {

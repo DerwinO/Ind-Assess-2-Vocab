@@ -26,9 +26,7 @@ const navBar = () => {
           </ul>
         </li>
       </ul>
-      <div>
-      <button type="button" class="btn btn-primary" id="submit-vocab-btn">Add Vocab</button>
-      </div>
+      <div id="add-button"></div>
       <div id="logout-button">
       </div>
       <form class="d-flex" role="search">

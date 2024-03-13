@@ -50,13 +50,13 @@ Create issue tickets from the items below to help you get started.
 - [ ] Technical Flow chart (timebox this)
 - [ ] The app has a navigation bar that includes:
   - [ ] A Title/Logo (do not spend a ton of time on this until you reach MVP)
-  - [ ] Logout button
+  - [ x] Logout button
   - [ ] Create Entry
   - [ ] Any other options you would like to add
 
 **The most basic requirement for this project is that a user can:**
 - [ x] Login and Logout of the application using Firebase Google Authentication
-- [ ] only see the vocabulary entries that they created
+- [x ] only see the vocabulary entries that they created
 - [ ] CREATE a vocabulary entry:
   - [ ] Title
   - [ ] Definition
@@ -66,8 +66,8 @@ Create issue tickets from the items below to help you get started.
 - [ x] READ THIER entries
 - [ x] UPDATE THEIR entries
 - [ x] DELETE THEIR entries
-- [ ] Filter by language/tech
-- [ ] Style your application using your own creativity!
+- [ x] Filter by language/tech
+- [ x] Style your application using your own creativity!
 - [ ] No errors - linters should be clean
 
 ## Stretch 1
